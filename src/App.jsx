@@ -63,7 +63,7 @@ function Hero() {
   }, []);
   return <section className="hero" id="home" aria-label="A and A Brother's">
     <div className="hero-photo" aria-hidden="true" style={{ transform: `translateY(${offset}px)` }} />
-    <div className="hero-frame"><p className="hero-kicker">Interior design · Construction · Delhi NCR</p><h1 className="serif">Spaces with<br /><em>soul.</em></h1>
+    <div className="hero-frame"><p className="hero-kicker">Interior design · Construction</p><h1 className="serif">Spaces with<br /><em>soul.</em></h1>
       <div className="hero-bottom"><div className="hero-copy">Considered interiors, made for living. From the first sketch to the final finish, we shape homes that feel entirely yours.<strong>Serving Delhi&nbsp; • &nbsp;Noida&nbsp; • &nbsp;Kanpur</strong></div><a className="btn btn-outline" href="#catalog">View Catalog <span className="arrow">↓</span></a></div>
     </div><span className="hero-side-note">Made thoughtfully · Built beautifully</span><a className="hero-scroll" href="#about">Scroll to explore</a>
   </section>;
